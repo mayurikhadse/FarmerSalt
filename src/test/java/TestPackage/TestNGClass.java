@@ -35,6 +35,7 @@ public void anb() throws InterruptedException
 	 create.Name();
 	 create.Lastname();
 	 create.Email();
+	 create.Pass();
 	 create.Bday();
 	 create.Bmonth();
 	 create.Byear();

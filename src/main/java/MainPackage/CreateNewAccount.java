@@ -62,12 +62,12 @@ public class CreateNewAccount
 	public void Bmonth() 
 	{
 		Select s2 = new Select(Bmonth);
-		s2.selectByValue("18");
+		s2.selectByVisibleText("Jan");
 	}
 	public void Byear()
 	{
 		Select s3 = new Select(Byear);
-		s3.deselectByVisibleText("2022");
+		s3.selectByVisibleText("2022");
 	}
 	
 	
